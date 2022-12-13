@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(rgb(221, 191, 250), rgb(134, 248, 248));
+  text-align: center;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  background-color: rgb(135, 166, 190);
+  color: white;
+  margin: 0;
+  padding: 15px;
+  text-shadow: 5px 5px 8px black;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(179, 236, 236);
+  font-style: italic;
+}
+input {
+  border: 5px inset rgb(132, 207, 178);
+  border-radius: 5%;
+}
+p#mount {
+  translate: 0 20px;
+}
+img {
+  translate: 0 20px;
+  transition: all 0.4s ease-in-out 0s;
+}
+img:hover {
+  cursor: default;
+  transform: rotate(360deg);
+  transition: all 0.4s ease-in-out 0s;
+}
+section#imgs {
+  align-items: center;
+}
